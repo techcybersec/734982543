@@ -1,0 +1,23 @@
+$strings = @()
+$strings += ""
+$strings += @"                                             
+--------HOLA SUPERMERCADOS XTRA TUS ARCHIVOS HAN SIDO ENCRIPTADOS--------
+	
+-----------Usted ha ejecutado software malicioso en este equipo-----------
+
+-----------Esto es una prueba controlada, comuniquese por favor con el area de seguridad de la informacion-----------
+
+-----------Si esto fuera un Ransomware real, sus archivos estarian cifrados y perdidos para siempre-----------
+
+-----------NUVOL AND RISCCO CYBERSECURITY TEAM-----------
+
+-----------Para Recuperar sus datos consigne a la siguiente cuenta de Bitcoin 500 USD-----------
+
+	myhxHNJK559SXfU7cnJ13eBoeXFiqdTsL==
+
+-----------Todos sus archivos seran destruidos-----------
+"@                                                                                                                             
+$strings | Set-Content "~/Desktop/NURIS-README.txt"
+start "~/Desktop/NURIS-README.txt"
+start "~/Desktop/NURIS-README.txt"
+start "~/Desktop/NURIS-README.txt"

